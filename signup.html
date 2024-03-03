@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+		<meta name="description" content="Spruha -  Admin Panel HTML Dashboard Template">
+		<meta name="author" content="Spruko Technologies Private Limited">
+		<meta name="keywords" content="admin,dashboard,panel,bootstrap admin template,bootstrap dashboard,dashboard,themeforest admin dashboard,themeforest admin,themeforest dashboard,themeforest admin panel,themeforest admin template,themeforest admin dashboard,cool admin,it dashboard,admin design,dash templates,saas dashboard,dmin ui design">
+
+		<!-- Favicon -->
+		<link rel="icon" href="assets/img/playdooh_logo.png" type="image/x-icon"/>
+
+		<!-- Title -->
+		<title>Play/Dooh</title>
+		<!-- Bootstrap css-->
+		<link  id="style" href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+
+		<!-- Icons css-->
+		<link href="assets/plugins/web-fonts/icons.css" rel="stylesheet"/>
+		<link href="assets/plugins/web-fonts/font-awesome/font-awesome.min.css" rel="stylesheet">
+		<link href="assets/plugins/web-fonts/plugin.css" rel="stylesheet"/>
+
+		<!-- Style css-->
+		<link href="assets/css/style.css" rel="stylesheet">
+
+		<style>
+			@font-face {
+                font-family: Montserrat;
+                src: url(assets/font/Montserrat/Montserrat-Regular.ttf);
+            }
+            html * {
+              font-family: Montserrat;
+            }
+			.btn-1 {
+				/*background-image: linear-gradient(to right, #34F5C5 0%, #2FBED0 51%, #3FA9F5 100%);*/
+			background-image: url("assets/img/playdooh_btn.png");
+			 background-size: fill;
+			border: none;
+			width:80px;
+			margin: 0;
+		
+			}
+			.center {
+				margin: 0;
+				position: absolute;
+				bottom: 8%;
+				left: 50%;
+				-ms-transform: translate(-60%, -50%);
+				transform: translate(-60%, -50%);
+				}
+		</style>
+
+	</head>
+
+	<body class="ltr main-body leftmenu error-1" style="background-color:#FCF9FA">
+		<!-- Main Header-->
+		<div class="main-header sticky" style="background-color: white;border-color: white; box-shadow:none">
+			<div class="main-container container-fluid">
+				<div class="main-header-left" style=" display: flex;align-items: left;">
+					<a href="index.html"><img src="assets/img/playdooh_logo.png" class="mobile-logo" alt="logo" style="height:50px"></a>
+				</div>
+			</div>
+		</div>
+		<!-- End Main Header-->
+
+		<!-- Page -->
+		
+		<div class="page main-signin-wrapper">
+
+			<!-- Row -->
+			<br><br><br>&nbsp;&nbsp;&nbsp;
+			<div class="row signpages text-center">
+			    <div class="col-md-1"></div>
+				<div class="col-md-10">
+					<div class="card">
+						<div class="col-lg-12 col-xl-12 col-xs-12 col-sm-12 login_form" style="border-radius: 10px;border: 1px solid #D3D3D3;">
+								<div class="main-container container-fluid">
+									<div class="row row-sm">
+										<div class="card-body mt-2 mb-2">
+											<!--<img src="assets/img/icons/playdooh.png" class="mobile-logo" alt="logo" style="height:80px">-->
+											
+											<div class="clearfix"></div>
+											<h4 class="text-start">Register</h4>
+											<form method="post" action="api/add_user.php" class="row login_form" enctype="multipart/form-data">
+												<div class="row row-sm text-start form-group">
+													<div class="col-lg">
+														<label>First Name</label>
+														<input class="form-control" placeholder="First Name" id="firstname" name="firstname" type="text">
+													</div>
+													<div class="col-lg ">
+														<label>Last Name</label>
+														<input class="form-control" placeholder="Last name" id="lastname"  name="lastname" type="text">
+													</div>
+													
+												</div>
+												<div class="form-group text-start">
+													<label>Email</label>
+													<input class="form-control" placeholder="Enter your email" type="text" id="email" name="email">
+												</div>
+												<div class="form-group text-start">
+													<label>Position</label>
+													<input class="form-control" placeholder="Enter your company" type="text" id="company" name="company">
+												</div>
+												<div class="form-group text-start">
+													<label>Phone Number</label>
+													<input class="form-control" placeholder="Enter your phone number" type="text" id="phone_no" name="phone_no">
+												</div>
+												<div class="row row-sm text-start form-group">
+													<div class="col-lg">
+														<label>Password</label>
+														<input class="form-control" type="password" id="pass" name="pass">
+													</div>
+													<div class="col-lg ">
+														<label>Verify Password</label>
+														<input class="form-control" type="password" id="verify_pass" name="verify_pass">
+													</div>
+													
+												</div>
+												<button class="btn btn-1 center" style="color:white">Submit</button>
+											</form>
+											<div class="text-start mt-5 ms-0">
+												<p class="mb-0">Already have an account? <a href="index.html">Return to Login</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+			<!-- End Row -->
+
+		</div>
+		<!-- End Page -->
+
+		<!-- Jquery js-->
+		<script src="assets/plugins/jquery/jquery.min.js"></script>
+
+		<!-- Bootstrap js-->
+		<script src="assets/plugins/bootstrap/js/popper.min.js"></script>
+		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Select2 js-->
+		<script src="assets/plugins/select2/js/select2.min.js"></script>
+		<script src="assets/js/select2.js"></script>
+
+		<!-- Perfect-scrollbar js -->
+		<script src="assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+
+		<!-- Color Theme js -->
+		<script src="assets/js/themeColors.js"></script>
+
+		<!-- Custom js -->
+		<script src="assets/js/custom.js"></script>
+
+	</body>
+</html>

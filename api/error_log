@@ -1,0 +1,28 @@
+[14-Jun-2023 16:12:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/paricomm/public_html/playdooh/api/add_user.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/paricomm/public_html/playdooh/api/add_user.php on line 24
+[14-Jun-2023 16:13:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/paricomm/public_html/playdooh/api/add_user.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/paricomm/public_html/playdooh/api/add_user.php on line 24
+[14-Jun-2023 16:16:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/paricomm/public_html/playdooh/api/add_user.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/paricomm/public_html/playdooh/api/add_user.php on line 24
+[14-Jun-2023 16:18:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/paricomm/public_html/playdooh/api/add_user.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/paricomm/public_html/playdooh/api/add_user.php on line 24
+[14-Jun-2023 16:18:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/paricomm/public_html/playdooh/api/add_user.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/paricomm/public_html/playdooh/api/add_user.php on line 24
+[14-Jun-2023 16:19:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/paricomm/public_html/playdooh/api/add_user.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/paricomm/public_html/playdooh/api/add_user.php on line 24
+[14-Jun-2023 16:20:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/paricomm/public_html/playdooh/api/add_user.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/paricomm/public_html/playdooh/api/add_user.php on line 24
